@@ -1,5 +1,5 @@
 class Solution(object):
-    def isPalindrom(self, x): 
+    def isPalindrome(self, x): 
         if x < 0:
             return False
         else:
@@ -13,4 +13,4 @@ x = -121
 
 solution = Solution()
 
-print(solution.isPalindrom(x)) 
+print(solution.isPalindrome(x)) 
